@@ -20,17 +20,32 @@
                 <ul>
                     <li><a href="index.html" class="anasayfa" id="ana">Anasayfa</a></li>
                     <li><a href="tur.html">Turlarımız</a></li>
-                    <li><a href="#galeri">Galeri</a></li>
                     <li><a href="menu.html">Menülerimiz</a></li>
                     <li><a href="konum.html">Konum</a></li>
                     <li><a href="ilet.html">İletişim</a></li>
+                    <li><a href="rezer.html">Rezervasyon</a></li>
                 </ul>
             </div>
         </div>
-        <h1>Rezervasyon</h1>
+        <h1>Tur Rotalarımız</h1>
     </div>
+    <div class="boslukheader">
+        <div class="capa">
+          <img src="http://yat.hazirsite.pro/wsx_resimler/176/sea-anchor.png" alt="">
+        </div>
+      </div>
     <div class="container">
-        <div class="content-wrap"></div>
+        <div class="content-wrap">
+            <div class="rota">
+                <div class="rota-top">
+                    <h2 style="display: inline;">Tur rotası:</h2>
+                    <button onclick="koprudegistir1()">1.Köprüye kadar</button>
+                    <button onclick="koprudegistir2()">2.Köprüye kadar</button>
+                </div>
+                <div id="rota1" style="display: none; margin-left: 350px;"><img src="../images/harita.jpg" alt="" style="border-radius: 20px;"  ></div>
+                <div id="rota2" style="display: none; margin-left: 350px;"><img src="../images/haritav2.png" alt="" style="border-radius: 20px;"></div>
+            </div>
+        </div>
     </div>
     <footer class="footer-distributed">
 
@@ -94,5 +109,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <script src="../js/navbar.js"></script>
+    <script src="../js/turrota.js"></script>
 </body>
 </html>
